@@ -1,0 +1,22 @@
+npm install @react-native-async-storage/async-storage
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+
+npm install @react-navigation/material-bottom-tabs react-native-paper react-native-vector-icons
+npm install @react-navigation/drawer
+npm install react-native-gesture-handler react-native-reanimated
+
+npm install react-native-reanimated
+
+import 'react-native-gesture-handler';
+bable.config.js
+plugins: [
+          ...
+          'react-native-reanimated/plugin',
+],
+
+npm install react-native-vector-icons --save
+
+npm install --save @react-native-firebase/app
+npm install --save @react-native-firebase/auth
+
